@@ -1,7 +1,8 @@
 # RFSong-779进行行人检测
-重新设计的RFBNet300,模型参数量只有0.99MB，AP达到0.78，速度可以达到200FPS
+重新设计的RFBNet300,模型参数量只有0.99MB，AP达到0.78(相比RFBNet300降了4个点，相比RFong7993降了两个点)，速度可以达到200FPS。
+RFSong779虽然参数量更小，但是速度与RFSong7993差不多，而精度低了两个点，因此更推荐RFSong7993。后面也利用RFSong7993版本做了很多其他实验，例如钢筋检测、人手检测还有人头检测，表现都还是很好的。
 
-文章链接：https://zhuanlan.zhihu.com/p/76491446
+详细讲解请看文章：https://zhuanlan.zhihu.com/p/76491446
 
 ## 环境
 在python3.6 Ubuntu16.04 pytorch1.1下进行了实验
