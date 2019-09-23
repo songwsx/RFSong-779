@@ -6,7 +6,8 @@
 ## 环境
 在python3.6 Ubuntu16.04 pytorch1.1下进行了实验
 - 编译NMS
-'./make.sh'
+
+ `./make.sh`
 
 # 与RFB不同的是
 - 代码更方便进行自己设计网络
